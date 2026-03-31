@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Does The War Mean For Dubai Real Estate? — Atlas Advisory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0f172a;
+            --blue: #1e3a8a;
+            --blue-mid: #2563eb;
+            --slate: #475569;
+            --muted: #64748b;
+            --border: #e2e8f0;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --sidebar-w: 270px;
+            --accent: #3b82f6;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--navy);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── SIDEBAR ── */
+        .sidebar {
+            position: fixed;
+            top: 0; left: 0;
+            width: var(--sidebar-w);
+            height: 100vh;
+            background: var(--navy);
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            z-index: 100;
+            scrollbar-width: none;
+        }
+        .sidebar::-webkit-scrollbar { display: none; }
+
+        .sidebar-brand {
+            padding: 2rem 1.5rem 1.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+        .sidebar-brand .brand-name {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        .sidebar-brand .brand-sub {
+            font-size: 0.75rem;
+            color: #94a3b8;
+            margin-top: 0.25rem;
+            line-height: 1.4;
+        }
+
+        .nav-label {
+            padding: 1.25rem 1.5rem 0.5rem;
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #475569;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            color: #94a3b8;
+            font-size: 0.82rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            border-left: 3px solid transparent;
+            line-height: 1.35;
+        }
+        .nav-item:hover {
+            color: #e2e8f0;
+            background: rgba(255,255,255,0.05);
+        }
+        .nav-item.active {
+            color: #ffffff;
+            background: rgba(59,130,246,0.15);
+            border-left-color: var(--accent);
+        }
+        .nav-item .nav-num {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #334155;
+            min-width: 20px;
+            padding-top: 1px;
+        }
+        .nav-item.active .nav-num { color: var(--accent); }
+
+        /* ── MAIN CONTENT ── */
+        .main {
+            margin-left: var(--sidebar-w);
+            min-height: 100vh;
+        }
+
+        /* Mobile top bar */
+        .topbar {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            background: var(--navy);
+            z-index: 200;
+            padding: 0 1rem;
+            height: 56px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .topbar .topbar-brand {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 0.78rem;
+            letter-spacing: 2px;
+            color: white;
+            white-space: nowrap;
+        }
+        .menu-btn {
+            background: none;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 6px;
+            padding: 0.4rem 0.6rem;
+            color: white;
+            cursor: pointer;
+            font-size: 1.1rem;
+            line-height: 1;
+        }
+
+        /* ── SECTIONS ── */
+        .section {
+            padding: 4rem 4rem 3rem;
+            border-bottom: 1px solid var(--border);
+            max-width: 860px;
+        }
+
+        .section-tag {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.75rem;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 2.4rem;
+            line-height: 1.15;
+            color: var(--navy);
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.7rem;
+            color: var(--navy);
+            margin-bottom: 1.25rem;
+            line-height: 1.2;
+        }
+        h3 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--navy);
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            color: var(--slate);
+            margin-bottom: 1rem;
+            line-height: 1.75;
+        }
+        .lead {
+            font-size: 1.1rem;
+            color: var(--slate);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        /* ── HERO ── */
+        #hero {
+            background: var(--navy);
+            color: white;
+            padding: 5rem 4rem 4rem;
+            max-width: 100%;
+        }
+        #hero .section-tag { color: #60a5fa; }
+        #hero h1 { color: white; font-size: 2.8rem; margin-bottom: 1rem; }
+        #hero .lead { color: #94a3b8; font-size: 1.05rem; max-width: 580px; }
+        #hero .meta { 
+            display: flex; gap: 2rem; margin-top: 2rem; padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            flex-wrap: wrap;
+        }
+        #hero .meta-item { font-size: 0.82rem; color: #64748b; }
+        #hero .meta-item strong { display: block; color: #94a3b8; margin-bottom: 0.15rem; font-size: 0.72rem; letter-spacing: 1px; text-transform: uppercase; }
+
+        /* ── DISCLAIMER ── */
+        .note-box {
+            background: rgba(255,255,255,0.08);
+            border-left: 3px solid rgba(255,255,255,0.3);
+            padding: 0.9rem 1.25rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.88rem;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 1.5rem;
+        }
+
+        /* ── BULLET LISTS ── */
+        .bullet-list {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 1.5rem;
+        }
+        .bullet-list li {
+            display: flex;
+            gap: 0.75rem;
+            padding: 0.5rem 0;
+            font-size: 0.97rem;
+            color: var(--slate);
+            border-bottom: 1px solid var(--border);
+            line-height: 1.6;
+        }
+        .bullet-list li:last-child { border-bottom: none; }
+        .bullet-list li::before {
+            content: '—';
+            color: var(--accent);
+            font-weight: 700;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        /* ── STAT CARDS ── */
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-top: 3px solid var(--blue);
+            border-radius: 10px;
+            padding: 1.25rem 1rem;
+        }
+        .stat-num {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--blue);
+            line-height: 1;
+            margin-bottom: 0.4rem;
+        }
+        .stat-label {
+            font-size: 0.78rem;
+            color: var(--muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            line-height: 1.3;
+        }
+
+        /* ── TWO-COL SPLIT ── */
+        .split-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+        .split-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1.5rem;
+        }
+        .split-card .split-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 0.75rem;
+        }
+        .split-card.changed { border-top: 3px solid #ef4444; }
+        .split-card.unchanged { border-top: 3px solid #22c55e; }
+        .split-card.changed .split-label { color: #dc2626; }
+        .split-card.unchanged .split-label { color: #16a34a; }
+
+        /* ── SCENARIO CARDS ── */
+        .scenario-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; margin: 1.5rem 0; }
+        .scenario-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1.5rem 1.75rem;
+            position: relative;
+        }
+        .scenario-card .sc-num {
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 0.3rem;
+        }
+        .scenario-card .sc-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 0.75rem;
+        }
+        .scenario-card .sc-badge {
+            position: absolute;
+            top: 1.5rem; right: 1.5rem;
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 0.25rem 0.65rem;
+            border-radius: 20px;
+        }
+        .sc-1 { border-left: 4px solid #22c55e; }
+        .sc-2 { border-left: 4px solid #f59e0b; }
+        .sc-3 { border-left: 4px solid #ef4444; }
+        .sc-1 .sc-badge { background: #dcfce7; color: #166534; }
+        .sc-2 .sc-badge { background: #fef3c7; color: #92400e; }
+        .sc-3 .sc-badge { background: #fee2e2; color: #991b1b; }
+
+        /* ── SCENARIO MATRIX ── */
+        .matrix-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.88rem; }
+        .matrix-table th { 
+            background: var(--navy); color: white;
+            padding: 0.75rem 1rem; text-align: left;
+            font-family: 'Outfit', sans-serif; font-weight: 600;
+            font-size: 0.8rem;
+        }
+        .matrix-table td { padding: 0.7rem 1rem; border-bottom: 1px solid var(--border); color: var(--slate); }
+        .matrix-table tbody tr:nth-child(even) { background: #f8fafc; }
+        .matrix-table .factor { font-weight: 600; color: var(--navy); }
+
+        /* ── INDICATORS TABLE ── */
+        .indicator-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.88rem; }
+        .indicator-table th { 
+            background: var(--blue); color: white;
+            padding: 0.75rem 1rem; text-align: left;
+            font-family: 'Outfit', sans-serif; font-weight: 600;
+        }
+        .indicator-table td { padding: 0.8rem 1rem; border-bottom: 1px solid var(--border); color: var(--slate); vertical-align: top; }
+        .indicator-table tbody tr:hover { background: #f1f5f9; }
+        .indicator-table .ind-name { font-weight: 600; color: var(--navy); }
+
+        /* ── TIMELINE CRISIS ── */
+        .crisis-list { margin: 1.5rem 0; }
+        .crisis-item {
+            display: flex;
+            gap: 1.25rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+        }
+        .crisis-icon {
+            width: 44px; height: 44px;
+            background: var(--blue);
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            color: white; font-weight: 800;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
+        .crisis-body h3 { margin: 0 0 0.4rem; font-size: 1rem; }
+        .crisis-body p { margin: 0; font-size: 0.93rem; }
+
+        /* ── CALLOUT ── */
+        .callout {
+            background: var(--blue);
+            color: white;
+            border-radius: 12px;
+            padding: 1.75rem 2rem;
+            margin: 1.5rem 0;
+        }
+        .callout p { color: rgba(255,255,255,0.85); margin: 0; font-size: 1rem; line-height: 1.7; }
+        .callout strong { color: white; }
+
+        .quote-block {
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.5rem;
+            background: #f0f7ff;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+            font-size: 1.05rem;
+            color: var(--navy);
+            font-style: italic;
+            line-height: 1.65;
+        }
+
+        /* ── ATLAS CTA ── */
+        #cta {
+            background: var(--navy);
+            padding: 4rem;
+            max-width: 100%;
+        }
+        #cta h2 { color: white; }
+        #cta .lead { color: #94a3b8; }
+        .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0; }
+        .service-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 10px;
+            padding: 1.25rem;
+        }
+        .service-card h4 { color: white; font-family: 'Outfit', sans-serif; font-size: 0.95rem; font-weight: 600; margin-bottom: 0.4rem; }
+        .service-card p { color: #64748b; font-size: 0.83rem; margin: 0; }
+        #cta .footer-note { font-size: 0.75rem; color: #334155; margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 1.25rem; }
+
+        /* ── POPULATION CHART ── */
+        .pop-chart-wrap {
+            margin: 1.5rem 0 1rem;
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem 1rem 0.5rem;
+        }
+        .pop-svg {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* ── SCROLLSPY ── */
+        .section { scroll-margin-top: 0; }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 900px) {
+            .sidebar { transform: translateX(-100%); transition: transform 0.3s ease; }
+            .sidebar.open { transform: translateX(0); }
+            .main { margin-left: 0; padding-top: 56px; }
+            .topbar { display: flex; }
+            #hero, .section, #cta { padding: 2.5rem 1.5rem; }
+            #hero h1 { font-size: 2rem; }
+            h2 { font-size: 1.4rem; }
+            .stat-grid { grid-template-columns: 1fr 1fr; }
+            .split-2 { grid-template-columns: 1fr; }
+            .service-grid { grid-template-columns: 1fr; }
+            .matrix-table { display: block; overflow-x: auto; white-space: nowrap; }
+            .indicator-table { display: block; overflow-x: auto; }
+        }
+        @media (max-width: 480px) {
+            .stat-grid { grid-template-columns: 1fr; }
+            .pop-chart { gap: 0.75rem; height: 160px; }
+            .pop-val { font-size: 0.8rem; }
+        }
+
+        @media print {
+            .sidebar, .topbar { display: none; }
+            .main { margin-left: 0; }
+            .section { padding: 2rem; border-bottom: 1px solid #ccc; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ── SIDEBAR ── -->
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+        <div class="brand-name">Atlas Advisory</div>
+        <div class="brand-sub">Dubai Real Estate Report<br>March 2026</div>
+    </div>
+
+    <div class="nav-label">Contents</div>
+
+    <a class="nav-item active" href="#hero" onclick="closeMenu()">
+        <span class="nav-num">00</span>Introduction
+    </a>
+    <a class="nav-item" href="#position" onclick="closeMenu()">
+        <span class="nav-num">01</span>Dubai's Position Pre-Conflict
+    </a>
+    <a class="nav-item" href="#macro" onclick="closeMenu()">
+        <span class="nav-num">02</span>The Macro Story
+    </a>
+    <a class="nav-item" href="#institutional" onclick="closeMenu()">
+        <span class="nav-num">03</span>Institutional Confidence
+    </a>
+    <a class="nav-item" href="#momentum" onclick="closeMenu()">
+        <span class="nav-num">04</span>Momentum & Flow
+    </a>
+    <a class="nav-item" href="#changed" onclick="closeMenu()">
+        <span class="nav-num">05</span>What Actually Changed
+    </a>
+    <a class="nav-item" href="#impact" onclick="closeMenu()">
+        <span class="nav-num">06</span>Immediate Impact
+    </a>
+    <a class="nav-item" href="#sentiment" onclick="closeMenu()">
+        <span class="nav-num">07</span>Offshore vs. Local Sentiment
+    </a>
+    <a class="nav-item" href="#history" onclick="closeMenu()">
+        <span class="nav-num">08</span>Historical Resilience
+    </a>
+    <a class="nav-item" href="#capital" onclick="closeMenu()">
+        <span class="nav-num">09</span>Capital Rotation
+    </a>
+    <a class="nav-item" href="#scenarios" onclick="closeMenu()">
+        <span class="nav-num">10</span>Three Scenarios
+    </a>
+    <a class="nav-item" href="#matrix" onclick="closeMenu()">
+        <span class="nav-num">11</span>Scenario Matrix
+    </a>
+    <a class="nav-item" href="#reality" onclick="closeMenu()">
+        <span class="nav-num">12</span>Current Market Reality
+    </a>
+    <a class="nav-item" href="#indicators" onclick="closeMenu()">
+        <span class="nav-num">13</span>Key Indicators to Watch
+    </a>
+    <a class="nav-item" href="#advisory" onclick="closeMenu()">
+        <span class="nav-num">14</span>Atlas Advisory Standard
+    </a>
+    <a class="nav-item" href="#cta" onclick="closeMenu()">
+        <span class="nav-num">15</span>Work With Atlas
+    </a>
+</aside>
+
+<!-- ── MOBILE TOPBAR ── -->
+<div class="topbar">
+    <span class="topbar-brand">ATLAS ADVISORY</span>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</div>
+
+<!-- ── MAIN ── -->
+<main class="main">
+
+    <!-- 00 HERO -->
+    <section id="hero">
+        <div class="section-tag">Atlas Advisory Real Estate · March 2026</div>
+        <h1>What Does The War Mean For Dubai Real Estate?</h1>
+        <p class="lead">An honest, structured analysis of the immediate and long-term impact of the current geopolitical conflict on Dubai's property market — without the noise of headlines or the false comfort of blind optimism.</p>
+        <div class="note-box">
+            <strong>A personal note:</strong> Before the analysis — we want to acknowledge every person impacted across the region. We hope everyone stays safe and that this ends as soon as possible. Nobody wins in war.
+        </div>
+        <div class="meta">
+            <div class="meta-item"><strong>Prepared by</strong>Jake, Adam &amp; Jordan — Co-Founders</div>
+            <div class="meta-item"><strong>Background</strong>Accounting, Finance &amp; Wealth Management</div>
+            <div class="meta-item"><strong>License</strong>ORN: 59785 | TL: 1597025</div>
+        </div>
+    </section>
+
+    <!-- 01 POSITION -->
+    <section id="position" class="section">
+        <div class="section-tag">Section 01</div>
+        <h2>Dubai's Position Before the Conflict</h2>
+        <p class="lead">Dubai did not enter this conflict from a position of weakness. It entered it during one of the strongest growth periods in its history.</p>
+        <p>Understanding that baseline is essential to understanding what is now at stake. Dubai's current position must be understood through its underlying structural strength.</p>
+        <p>Key drivers continue to support the market at a macro level: the D33 Economic Agenda, population increases, and continued records in tourism and capital inflows. These fundamentals remain intact.</p>
+        <p>Therefore, the key question is the depth and duration of the conflict. Three potential market outcomes emerge:</p>
+        <ul class="bullet-list">
+            <li><strong>Scenario 1:</strong> A short-term confidence shock, followed by recovery</li>
+            <li><strong>Scenario 2:</strong> A selective and more cautious market environment</li>
+            <li><strong>Scenario 3:</strong> A structural repricing of geopolitical risk</li>
+        </ul>
+    </section>
+
+    <!-- 02 MACRO -->
+    <section id="macro" class="section">
+        <div class="section-tag">Section 02</div>
+        <h2>The Macro Story Pre-Conflict</h2>
+        <p class="lead">Dubai entered this period during one of the strongest growth cycles in its history, operating on a layered model: Capital Inflows → Infrastructure → Population Growth → Real Estate Demand.</p>
+
+        <h3>Population Growth Trajectory</h3>
+        <div class="pop-chart-wrap">
+            <svg class="pop-svg" viewBox="0 0 560 220" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+                <!-- Grid lines -->
+                <line x1="60" y1="20" x2="60" y2="170" stroke="#e2e8f0" stroke-width="1"/>
+                <line x1="60" y1="170" x2="530" y2="170" stroke="#e2e8f0" stroke-width="1"/>
+                <line x1="60" y1="120" x2="530" y2="120" stroke="#f1f5f9" stroke-width="1" stroke-dasharray="4,3"/>
+                <line x1="60" y1="70" x2="530" y2="70" stroke="#f1f5f9" stroke-width="1" stroke-dasharray="4,3"/>
+                <!-- Y-axis labels -->
+                <text x="50" y="174" text-anchor="end" font-size="10" fill="#94a3b8" font-family="Inter,sans-serif">0</text>
+                <text x="50" y="124" text-anchor="end" font-size="10" fill="#94a3b8" font-family="Inter,sans-serif">3M</text>
+                <text x="50" y="74" text-anchor="end" font-size="10" fill="#94a3b8" font-family="Inter,sans-serif">6M</text>
+                <text x="50" y="24" text-anchor="end" font-size="10" fill="#94a3b8" font-family="Inter,sans-serif">9M</text>
+                <!-- Area fill -->
+                <defs>
+                    <linearGradient id="popGrad" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18"/>
+                        <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.02"/>
+                    </linearGradient>
+                </defs>
+                <!-- Data points: 2020=3.41M, 2025=4.0M, 2033=5.8M, 2040=7.8M
+                     Scale: 0-9M maps to y170-y20 (150px range). y = 170 - (val/9)*150
+                     2020: y=170-(3.41/9)*150 = 170-56.8=113  x=130
+                     2025: y=170-(4.0/9)*150  = 170-66.7=103  x=240
+                     2033: y=170-(5.8/9)*150  = 170-96.7=73   x=380
+                     2040: y=170-(7.8/9)*150  = 170-130=40    x=500 -->
+                <polygon points="130,113 240,103 380,73 500,40 500,170 130,170" fill="url(#popGrad)"/>
+                <!-- Line -->
+                <polyline points="130,113 240,103 380,73 500,40" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+                <!-- Data point dots -->
+                <circle cx="130" cy="113" r="5" fill="#1e3a8a" stroke="white" stroke-width="2"/>
+                <circle cx="240" cy="103" r="5" fill="#1e3a8a" stroke="white" stroke-width="2"/>
+                <circle cx="380" cy="73" r="5" fill="#1e3a8a" stroke="white" stroke-width="2"/>
+                <circle cx="500" cy="40" r="5" fill="#1e3a8a" stroke="white" stroke-width="2"/>
+                <!-- Value labels -->
+                <text x="130" y="100" text-anchor="middle" font-size="11" font-weight="700" fill="#1e3a8a" font-family="Outfit,sans-serif">3.41M</text>
+                <text x="240" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="#1e3a8a" font-family="Outfit,sans-serif">4.0M</text>
+                <text x="380" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1e3a8a" font-family="Outfit,sans-serif">5.8M</text>
+                <text x="500" y="27" text-anchor="middle" font-size="11" font-weight="700" fill="#1e3a8a" font-family="Outfit,sans-serif">7.8M</text>
+                <!-- X-axis year labels -->
+                <text x="130" y="188" text-anchor="middle" font-size="11" fill="#64748b" font-family="Inter,sans-serif">2020</text>
+                <text x="240" y="188" text-anchor="middle" font-size="11" fill="#64748b" font-family="Inter,sans-serif">2025</text>
+                <text x="380" y="188" text-anchor="middle" font-size="11" fill="#64748b" font-family="Inter,sans-serif">2033 Target</text>
+                <text x="500" y="188" text-anchor="middle" font-size="11" fill="#64748b" font-family="Inter,sans-serif">2040 Target</text>
+                <!-- Chart label -->
+                <text x="60" y="210" font-size="9.5" fill="#94a3b8" font-family="Inter,sans-serif">Source: Dubai Statistics Centre / D33 Urban Master Plan</text>
+            </svg>
+        </div>
+
+        <div class="stat-grid" style="grid-template-columns: 1fr 1fr; margin-top: 1.5rem;">
+            <div class="stat-card">
+                <div class="stat-num">AED 32T</div>
+                <div class="stat-label">D33 Agenda — Target economic expansion over next decade</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">7.8M</div>
+                <div class="stat-label">Dubai 2040 Urban Master Plan — Daytime population target</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 03 INSTITUTIONAL -->
+    <section id="institutional" class="section">
+        <div class="section-tag">Section 03</div>
+        <h2>Global Capital &amp; Institutional Confidence</h2>
+        <p class="lead">The UAE's tax environment is a competitive advantage, but institutional capital requires deeper frameworks: Legal Clarity, Regulatory Familiarity, and Financial Infrastructure.</p>
+
+        <div class="stat-grid">
+            <div class="stat-card">
+                <div class="stat-num">8,844</div>
+                <div class="stat-label">Active companies in DIFC by end-2025, up from 6,920 the prior year</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">28%</div>
+                <div class="stat-label">Annual growth in corporate registrations — 1,924 new firms added in 2025 alone</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">$27B</div>
+                <div class="stat-label">DIFC &amp; ADGM expansion plan currently underway to scale the free zones further</div>
+            </div>
+        </div>
+
+        <div class="callout">
+            <p>Days before the conflict began, <strong>JP Morgan announced the UAE's removal from its Emerging Market bond index</strong> — formally recognising it as a developed financial platform. This reclassification reflects years of structural capital flow, not a single announcement.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem; color: rgba(255,255,255,0.4);"><em>Source: Bloomberg / The National, February 24, 2026</em></p>
+        </div>
+    </section>
+
+    <!-- 04 MOMENTUM -->
+    <section id="momentum" class="section">
+        <div class="section-tag">Section 04</div>
+        <h2>Momentum, Connectivity, and Economic Flow</h2>
+        <p class="lead">Dubai's economic model is built on movement. 2025 recorded the busiest year in aviation history anywhere in the world.</p>
+
+        <div class="stat-grid">
+            <div class="stat-card">
+                <div class="stat-num">AED 3.8T</div>
+                <div class="stat-label">Non-Oil Foreign Trade</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">95.2M</div>
+                <div class="stat-label">Annual DXB Passengers — World Record</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">AED 917B</div>
+                <div class="stat-label">Real Estate Transactions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">AED 170B</div>
+                <div class="stat-label">National Road Infrastructure Committed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">AED 128B</div>
+                <div class="stat-label">Al Maktoum Airport Expansion Committed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">#1 Global</div>
+                <div class="stat-label">Net Millionaire Inflow — approx. 9,800 in 2025</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 05 CHANGED -->
+    <section id="changed" class="section">
+        <div class="section-tag">Section 05</div>
+        <h2>What the Conflict Has Changed</h2>
+        <p class="lead">The structural foundations remain entirely intact. What has changed is narrative perception. Uncertainty is temporarily overriding data.</p>
+
+        <div class="split-2">
+            <div class="split-card unchanged">
+                <div class="split-label">✓ Unchanged</div>
+                <ul class="bullet-list">
+                    <li>Infrastructure</li>
+                    <li>Tax Policy</li>
+                    <li>Free Zones (DIFC, ADGM)</li>
+                    <li>Economic Strategy (D33)</li>
+                    <li>Population growth trajectory</li>
+                    <li>Global connectivity</li>
+                </ul>
+            </div>
+            <div class="split-card changed">
+                <div class="split-label">⚠ Changed</div>
+                <ul class="bullet-list">
+                    <li>Investor perception offshore</li>
+                    <li>Regional proximity risk is now a felt reality</li>
+                    <li>Confidence narrative shaken</li>
+                    <li>Flight capacity temporarily disrupted</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="quote-block">"The conflict has not destroyed Dubai's fundamentals. It has shaken the confidence narrative that sat above them."</div>
+    </section>
+
+    <!-- 06 IMPACT -->
+    <section id="impact" class="section">
+        <div class="section-tag">Section 06</div>
+        <h2>Immediate Economic Impact</h2>
+        <p class="lead">Disruptions to regional movement act as an immediate confidence check. These are real numbers — but they reflect sentiment-driven dislocations, not permanent structural damage.</p>
+
+        <div class="stat-grid" style="grid-template-columns: 1fr 1fr;">
+            <div class="stat-card" style="border-top-color: #ef4444;">
+                <div class="stat-num" style="color: #dc2626;">$200M</div>
+                <div class="stat-label">Per day estimated revenue delays for Gulf airlines<br><em style="font-weight:400; color: #94a3b8;">Source: Simple Flying, March 2026</em></div>
+            </div>
+            <div class="stat-card" style="border-top-color: #ef4444;">
+                <div class="stat-num" style="color: #dc2626;">~$600M</div>
+                <div class="stat-label">Per day in international visitor spending losses; total impact exceeded $12B in the first 20 days<br><em style="font-weight:400; color: #94a3b8;">Source: WTTC via Anadolu Agency, March 2026</em></div>
+            </div>
+            <div class="stat-card" style="border-top-color: #ef4444;">
+                <div class="stat-num" style="color: #dc2626;">~$49B</div>
+                <div class="stat-label">Dubai stock market cap contraction in early trading sessions</div>
+            </div>
+            <div class="stat-card" style="border-top-color: #ef4444;">
+                <div class="stat-num" style="color: #dc2626;">80,000+</div>
+                <div class="stat-label">Short-term rental bookings cancelled in the first week<br><em style="font-weight:400; color: #94a3b8;">Source: STR Aggregate Data</em></div>
+            </div>
+        </div>
+
+        <p style="font-style: italic; color: var(--muted); font-size: 0.9rem;">Markets react to uncertainty faster than they react to fundamentals. The key distinction: are these permanent structural losses, or sentiment-driven dislocations?</p>
+    </section>
+
+    <!-- 07 SENTIMENT -->
+    <section id="sentiment" class="section">
+        <div class="section-tag">Section 07</div>
+        <h2>The Sentiment Divergence: Offshore vs. Local</h2>
+        <p class="lead">Risk is not just measured. It is experienced. And right now, it is being experienced very differently depending on where you are sitting.</p>
+
+        <div class="split-2">
+            <div class="split-card" style="border-top: 3px solid var(--accent);">
+                <div class="split-label">Offshore Capital</div>
+                <ul class="bullet-list">
+                    <li>Headline-driven — observing through foreign media and maps</li>
+                    <li>Perception shifts rapidly. Uncertainty is amplified</li>
+                    <li>Quick to pause capital deployment</li>
+                </ul>
+            </div>
+            <div class="split-card" style="border-top: 3px solid #22c55e;">
+                <div class="split-label">Local Capital</div>
+                <ul class="bullet-list">
+                    <li>Ground-level stability — the UAE is where they live and work</li>
+                    <li>Focused on infrastructure execution and everyday continuity</li>
+                    <li>Maintaining deployment schedules</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="callout">
+            <p><strong>Result: A temporarily fragmented market — not a broken one.</strong><br>A paused market is very different from a broken one. Long-term conviction remains strong. Short-term caution is real. Many investors are not exiting — they are waiting.</p>
+        </div>
+    </section>
+
+    <!-- 08 HISTORY -->
+    <section id="history" class="section">
+        <div class="section-tag">Section 08</div>
+        <h2>Historical Capital Behaviour</h2>
+        <p class="lead">The UAE has been stress-tested repeatedly over the past two decades. The consistent pattern: it does not simply recover from crises — it restructures, adapts, and continues expanding.</p>
+
+        <div class="crisis-list">
+            <div class="crisis-item">
+                <div class="crisis-icon">2008</div>
+                <div class="crisis-body">
+                    <h3>Global Financial Crisis</h3>
+                    <p>The deepest test. Property prices fell 50–60%. But recovery began in 2011–2013, broadly aligned with London (~2012) and New York (~2013–14), despite a far deeper initial correction.</p>
+                </div>
+            </div>
+            <div class="crisis-item">
+                <div class="crisis-icon">2020</div>
+                <div class="crisis-body">
+                    <h3>COVID-19 Pandemic</h3>
+                    <p>The UAE responded with remote worker visas and pro-business policy adjustments. The result: Dubai property prices rose approximately 60% relative to global counterparts between 2022 and early 2025.</p>
+                </div>
+            </div>
+            <div class="crisis-item">
+                <div class="crisis-icon">2024</div>
+                <div class="crisis-body">
+                    <h3>Unprecedented Flooding</h3>
+                    <p>Exposed real infrastructure limitations. The response was immediate: an $8B drainage system announced, with construction beginning at once and a 2033 completion target.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-block">The underlying cycle: <strong>Shock → Rapid Intervention → Capital Deployment → Structural Reinforcement → Continued Growth.</strong><br><br>This does not eliminate risk. But it provides essential context for how the current situation may evolve.</div>
+    </section>
+
+    <!-- 09 CAPITAL ROTATION -->
+    <section id="capital" class="section">
+        <div class="section-tag">Section 09</div>
+        <h2>Capital Rotation, Not Capital Flight</h2>
+        <p class="lead">In previous geopolitical events — such as Russia-Ukraine — capital did not disappear from markets. It relocated to perceived safe havens.</p>
+
+        <ul class="bullet-list">
+            <li>Even under regional stress, global wealth prioritises jurisdictions with depth, liquidity, and legal transparency.</li>
+            <li>Within the GCC, Dubai and Abu Dhabi remain the most highly-liquid, legally transparent jurisdictions for deploying and protecting global wealth.</li>
+            <li>DIFC and ADGM provide internationally recognised frameworks. These structural advantages do not disappear in uncertainty — they strengthen.</li>
+            <li>For many families and businesses, the comparison is not Dubai vs. London. It is Dubai vs. other locations within the region. When viewed through that lens, the UAE still stands out as the most credible platform.</li>
+        </ul>
+
+        <div class="callout">
+            <p><strong>Capital is hesitating, not exiting.</strong> The system is adjusting its pricing mechanics to account for longer negotiation cycles — not shutting down.</p>
+        </div>
+    </section>
+
+    <!-- 10 SCENARIOS -->
+    <section id="scenarios" class="section">
+        <div class="section-tag">Section 10</div>
+        <h2>Three Possible Market Paths</h2>
+        <p class="lead">It is too early to predict a single outcome with certainty. The most rigorous approach is to map three realistic paths based on conflict duration, investor confidence, and operational disruption.</p>
+
+        <div class="scenario-grid">
+            <div class="scenario-card sc-1">
+                <div class="sc-num">Scenario 1</div>
+                <div class="sc-title">Contained Conflict — Confidence Rebound</div>
+                <div class="sc-badge">Possible</div>
+                <ul class="bullet-list">
+                    <li>Travel systems stabilise; operations normalise quickly</li>
+                    <li>Investors who paused begin re-engaging as clarity returns</li>
+                    <li>Short-term slowdown in transactions, followed by a sharp rebound</li>
+                    <li>Pent-up demand releases once uncertainty fades</li>
+                </ul>
+                <p style="font-style: italic; font-size: 0.88rem; color: var(--muted);">This path mirrors standard sentiment shocks. The episode would be remembered as a pause, not a turning point.</p>
+            </div>
+
+            <div class="scenario-card sc-2">
+                <div class="sc-num">Scenario 2</div>
+                <div class="sc-title">Prolonged Tension — Market Selectivity</div>
+                <div class="sc-badge">Atlas Base Case</div>
+                <ul class="bullet-list">
+                    <li>Conflict persists without major escalation; uncertainty lingers</li>
+                    <li>Market does not collapse — it slows and becomes more selective</li>
+                    <li>Decision cycles lengthen; offshore capital remains more cautious</li>
+                    <li>Developers stagger launches and offer payment plan flexibility</li>
+                    <li>Prime assets outperform; speculative or fringe assets face pressure</li>
+                </ul>
+                <p style="background: #fef3c7; border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.88rem; color: #78350f; margin-top: 0.75rem;"><strong>Atlas Tactical Play:</strong> Prioritise high-liquidity prime assets (Coastal, Central, Downtown). Avoid sub-prime locations at risk of slower absorption rates.</p>
+            </div>
+
+            <div class="scenario-card sc-3">
+                <div class="sc-num">Scenario 3</div>
+                <div class="sc-title">Risk Repricing — Downside</div>
+                <div class="sc-badge">Downside Risk</div>
+                <ul class="bullet-list">
+                    <li>Triggered by direct logistical disruption (Strait of Hormuz) or prolonged widening of the conflict</li>
+                    <li>The market definitively and permanently reprices risk</li>
+                    <li>Investors demand materially stronger yields to re-enter</li>
+                    <li>Distressed off-plan discounts of 10–20% emerge in non-prime corridors within 60–90 days</li>
+                </ul>
+                <p style="background: #fee2e2; border-radius: 6px; padding: 0.75rem 1rem; font-size: 0.88rem; color: #7f1d1d; margin-top: 0.75rem;"><strong>Atlas Tactical Play:</strong> Expect an immediate liquidity contraction in secondary and off-plan segments. Highly leveraged, non-prime corridor assets face severe pricing pressure.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11 MATRIX -->
+    <section id="matrix" class="section">
+        <div class="section-tag">Section 11</div>
+        <h2>Scenario Comparison at a Glance</h2>
+
+        <table class="matrix-table">
+            <thead>
+                <tr>
+                    <th>Factor</th>
+                    <th>Scenario 1 — Rebound</th>
+                    <th>Scenario 2 — Selective</th>
+                    <th>Scenario 3 — Repricing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="factor">Confidence</td>
+                    <td>Recovers quickly</td>
+                    <td>Gradual recovery</td>
+                    <td>Weakens materially</td>
+                </tr>
+                <tr>
+                    <td class="factor">Transactions</td>
+                    <td>Rebound</td>
+                    <td>Slower</td>
+                    <td>Decline</td>
+                </tr>
+                <tr>
+                    <td class="factor">Risk perception</td>
+                    <td>Temporary</td>
+                    <td>Elevated (Selective)</td>
+                    <td>Structurally repriced</td>
+                </tr>
+                <tr>
+                    <td class="factor">Atlas view</td>
+                    <td>Possible</td>
+                    <td><strong>Most likely base case</strong></td>
+                    <td>Downside risk</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 12 REALITY -->
+    <section id="reality" class="section">
+        <div class="section-tag">Section 12</div>
+        <h2>The Current Market Reality</h2>
+        <p class="lead">Activity has slowed. It has not stopped.</p>
+        <ul class="bullet-list">
+            <li>Wealthy families and professionals are still actively enquiring about relocating to Dubai.</li>
+            <li>Core rental demand across high-quality, Grade-A properties persists.</li>
+            <li>Institutional developers are maintaining their construction schedules.</li>
+            <li>The system is adjusting its pricing mechanics to account for longer negotiation cycles.</li>
+        </ul>
+        <div class="quote-block">
+            "The question is not whether the market reacts — it already has. The question is whether the macro-foundations (D33, Infrastructure, Talent Inflow) are strong enough to absorb the confidence shock without yielding structural damage. <strong>Data currently indicates they are.</strong>"
+        </div>
+    </section>
+
+    <!-- 13 INDICATORS -->
+    <section id="indicators" class="section">
+        <div class="section-tag">Section 13</div>
+        <h2>Key Indicators to Watch</h2>
+        <p>The real pricing and volume signal will arrive in 4–8 weeks. Here is what to monitor now:</p>
+
+        <h3>Mobility &amp; Tourism</h3>
+        <table class="indicator-table">
+            <thead>
+                <tr><th>Indicator</th><th>What to Watch For</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="ind-name">Schools &amp; Daily Life</td>
+                    <td>A return to full in-person schooling signals families re-anchoring to normal routines — filling Dubai's roads, offices, and hospitality venues.</td>
+                </tr>
+                <tr>
+                    <td class="ind-name">Flight Schedules</td>
+                    <td>Aviation capacity has been restricted by over 50%. Week-on-week Emirates, flydubai, and Air Arabia route reinstatements are the core signal to monitor.</td>
+                </tr>
+                <tr>
+                    <td class="ind-name">Hotel &amp; Short-Term Rentals</td>
+                    <td>Hotel RevPAR (Revenue Per Available Room) and Airbnb/Booking.com occupancy rates will directly measure the real confidence gap.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Owners, Sellers &amp; Tenants</h3>
+        <table class="indicator-table">
+            <thead>
+                <tr><th>Indicator</th><th>What to Watch For</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="ind-name">Owner &amp; Seller Behaviour</td>
+                    <td>A rise in owners choosing to sell now while prices hold — then renting temporarily to wait — would indicate a shift in risk appetite. <em>For Atlas clients: knee-jerk reactions rooted in panic do not align with your long-term investment goals.</em></td>
+                </tr>
+                <tr>
+                    <td class="ind-name">Tenant Renewals</td>
+                    <td>Declining renewal rates — particularly in mid-market properties — would signal weakening residential conviction. Grade-A assets tend to retain tenants through uncertainty.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Labour Market &amp; Pricing Data</h3>
+        <table class="indicator-table">
+            <thead>
+                <tr><th>Indicator</th><th>What to Watch For</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="ind-name">Mobile Workforce</td>
+                    <td>Younger, more mobile residents — freelancers, early-career expats — may reassess their commitment. This is the pattern seen in 2008. Early-stage population softness is the data signal.</td>
+                </tr>
+                <tr>
+                    <td class="ind-name">Transaction Volumes</td>
+                    <td>Transaction volumes, not prices, are the earliest leading indicator. A significant fall in volume after the initial lag period could indicate weakened buyer sentiment. Prices will follow weeks later.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 14 ADVISORY -->
+    <section id="advisory" class="section">
+        <div class="section-tag">Section 14</div>
+        <h2>A Different Standard of Advisory</h2>
+        <p class="lead">In a volatile market, blind optimism is a liability. Atlas provides clarity during uncertainty.</p>
+        <p>Atlas Advisory operates completely objectively, grounding deployment strategies in unapologetic data and cycle experience.</p>
+        <p>We continually monitor:</p>
+        <ul class="bullet-list">
+            <li>Institutional capital flows — where the major investors are placing money</li>
+            <li>Off-market distressed opportunities — genuine bargains that only appear in uncertain markets</li>
+            <li>Geopolitical pricing models — how risk actually translates to property values over time</li>
+        </ul>
+    </section>
+
+    <!-- 15 CTA -->
+    <section id="cta">
+        <div class="section-tag" style="color: #60a5fa;">Work With Atlas</div>
+        <h2>Protect and deploy your capital exactly where the smart money goes under pressure.</h2>
+        <p class="lead">Contact the Atlas team for a tailored advisory session.</p>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <h4>Off-Plan Institutional Structuring</h4>
+                <p>Strategic positioning in new developments, aligned to your risk profile and timeline.</p>
+            </div>
+            <div class="service-card">
+                <h4>Secondary Market Acquisitions</h4>
+                <p>Identifying high-liquidity, ready-to-move-in opportunities in prime areas.</p>
+            </div>
+            <div class="service-card">
+                <h4>Portfolio Stress-Testing</h4>
+                <p>Reviewing your existing holdings against current market conditions and repositioning for resilience.</p>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            © 2026 Atlas Advisory Real Estate. All rights reserved. ORN: 59785 | Trade License No: 1597025<br>
+            This report is for informational purposes only and does not constitute financial, legal, or investment advice.
+        </div>
+    </section>
+
+</main>
+
+<script>
+    function toggleMenu() {
+        document.getElementById('sidebar').classList.toggle('open');
+    }
+    function closeMenu() {
+        document.getElementById('sidebar').classList.remove('open');
+    }
+
+    // Scrollspy — highlight active nav item
+    const sections = document.querySelectorAll('section[id]');
+    const navItems = document.querySelectorAll('.nav-item');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                navItems.forEach(item => item.classList.remove('active'));
+                const active = document.querySelector(`.nav-item[href="#${entry.target.id}"]`);
+                if (active) active.classList.add('active');
+            }
+        });
+    }, { rootMargin: '-30% 0px -60% 0px' });
+
+    sections.forEach(s => observer.observe(s));
+</script>
+
+</body>
+</html>
